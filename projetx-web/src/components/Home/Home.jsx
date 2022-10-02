@@ -5,12 +5,12 @@ import styled from "styled-components";
 import Header from "./Header/Header";
 import Nav from "../nav";
 
-import Problem from "../Problem/Problem";
-import Amplify from "../Amplify/Amplify";
-import Story from "../Story/Story";
-import Testimonial from "../Testimonial/Testimonial";
-import Offer from "../Offer/Offer";
-import Response from "../Response/Response";
+import Problem from "./Problem/Problem";
+import Amplify from "./Amplify/Amplify";
+import Story from "./Story/Story";
+import Testimonial from "./Testimonial/Testimonial";
+import Offer from "./Offer/Offer";
+import Response from "./Response/Response";
 
 import Footer from "../Footer/Footer"
 
