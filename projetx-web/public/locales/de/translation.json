@@ -1,0 +1,15 @@
+{
+    "Nav":{
+         "home": "Home",
+         "about": "Über",
+         "solutions": "Lösungen"
+         
+    },
+
+    "Footer":{
+        "copyright": "2022 hereIam solutions. Alle Rechte vorbehalten.",
+        "address": "Adresse",
+        "phone": "Telefon",
+        "email": "E-Mail"
+    }
+}
