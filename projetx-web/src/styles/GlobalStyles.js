@@ -58,8 +58,9 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 1rem;
     line-height: 1.6;
     font-weight: 100;
-	font-size: calc(1vw + 1vh + .5vmin);
+	  font-size: calc(1vw + 1vh + .5vmin);
     color: var(--hullwhite);
+    background-color: var(--taubenblau);
 
 
   }
