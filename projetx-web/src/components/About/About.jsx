@@ -2,6 +2,8 @@ import React from "react";
 
 import styled from "styled-components";
 
+import Nav from "../nav";
+
 import Company from "./Company/Company";
 import Impressum from "./Impressum/Impressum";
 import Datenschutz from "./Datenschutz/Datenschutz";
@@ -11,6 +13,8 @@ export default function About() {
   return (
     <>
       <StyledAbout>
+
+        <Nav />
 
         <Company />
 
