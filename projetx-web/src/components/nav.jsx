@@ -79,10 +79,7 @@ export default function Nav() {
 const StyledNav = styled.div`
   width: 100vw;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ 
 
   pointer-events: auto;
   overflow: hidden;
@@ -115,7 +112,7 @@ const StyledNav = styled.div`
   }
 
   .colored {
-    color: var(--shellgelb);
+    color: var(--signalblau);
   }
 
   .false {
@@ -124,25 +121,15 @@ const StyledNav = styled.div`
 `;
 
 const StyledLogos = styled.div`
-  margin: 1rem 0 0 0;
-  gap: 1rem;
-
-  display: flex;
-  flex-direction: raw;
-  justify-content: center;
-  align-items: center;
+  
+ 
 `;
 
 const StyledTranslateSwitch = styled.div`
  
-  display: flex;
-  flex-direction: raw;
-  justify-content: center;
-  align-items: center;
-
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--whiter);
+  color: var(--wsignalblau);
 
   button {
     padding: 0.2rem;
