@@ -2,6 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 
+import Header from "./Header/Header";
 import Nav from "../nav";
 
 import Problem from "../Problem/Problem";
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <>
       <StyledHome>
+        <Header />
         <Nav />
 
         <Problem />
