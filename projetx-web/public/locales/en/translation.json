@@ -3,6 +3,14 @@
          "home": "Home",
          "about": "About"   
     },
+
+    "Trust": {
+        "trust": "Trust",
+        "experiences": "20 years of experience in sales in the field of B2C & B2B",
+        "channels": "Focus channels: Media Saturn Germany, Shop channels of o2 & VF, Distribution",
+        "topics": "Topics: Hardware Selling, ISP Marketing, Promotion, Leasing Field Service or Mystery Checks"
+    },
+
     "Offer": {
         "offer": "Offer",
         "sales": "Sales Management",

@@ -5,6 +5,13 @@
          
     },
 
+    "Trust": {
+        "trust": "Vertrauen",
+        "experiences": "20 Jahre Erfahrung im Vertrieb im Bereich B2C & B2B",
+        "channels": "Schwerpunktkanäle: Media Saturn Deutschland, Shop Kanäle der o2 & VF, Distribu0on uvm.",
+        "topics": "Themen: Hardware Selling, ISP Vermarktung, Promotion, Leasingaußendienst oder Mystery-Checks"
+    },
+
     "Offer": {
         "offer": "Angebot",
         "sales": "Vertriebsmanagement",
