@@ -6,7 +6,7 @@ export default function Response() {
   return (
     <>
       <StyledResponse>
-        <div>Response</div>
+        <div>CTA</div>
       </StyledResponse>
     </>
   );
@@ -21,5 +21,5 @@ const StyledResponse = styled.div`
   align-items: center;
 
   color: var(--komatsgrau);
-  background-color: var(--shellgelb);
+  background-color: var(--lichtblau);
 `;

@@ -5,10 +5,13 @@ import { useTranslation } from "react-i18next";
 
 import styled from "styled-components";
 import { RiMailLine } from "react-icons/ri";
+import { RiPhoneFill } from "react-icons/ri";
+;
 
 export default function Nav() {
 
   const MailLogo = RiMailLine;
+  const CallLogo = RiPhoneFill;
 
   const { t, i18n } = useTranslation();
 
@@ -24,68 +27,76 @@ export default function Nav() {
     return <a href={`mailto:${email}${params}`}>{children}</a>;
   };
 
+  const Callme = ({ callnumber, children }) => {
+    return <a href={`tel:${callnumber}`}>{children}</a>;
+  };
+
   return (
     <>
       <StyledNav>
         <nav role="navigation" aria-label="Main">
           <ul>
             <li>
-              <Link className="link" to="/" aria-label="home">
-                {t("Nav.home")}
-              </Link>
-            </li>
-            <li>
               <Link className="link" to="/about" aria-label="about Project X">
                 {t("Nav.about")}
               </Link>
             </li>
+            <li>
+              {/* choose language container*/}
+              <StyledTranslateSwitch>
+                <button
+                  aria-label="in deutsch"
+                  onClick={() => TranslateClick("de-DE")}
+                >
+                  de
+                </button>
+                <button
+                  aria-label="in english"
+                  onClick={() => TranslateClick("en-US")}
+                >
+                  en
+                </button>
+              </StyledTranslateSwitch>
+            </li>
+            <li>
+              <StyledLogos>
+                <Mailto
+                  email="mmueller@projectxconsulting.de"
+                  subject="Hello Project X"
+                  body="Let's connect"
+                  className="mailto"
+                >
+                  <MailLogo
+                    aria-label="send mail"
+                    size={25}
+                    className="colored"
+                  />
+                </Mailto>
+                <Callme callnumber="00491741642535">
+                  <CallLogo
+                    aria-label="call"
+                    size={25}
+                    className="colored"
+                  />
+                </Callme>
+              </StyledLogos>
+            </li>
           </ul>
-
-          {/* choose language container*/}
-          <StyledTranslateSwitch>
-            <button
-              aria-label="in deutsch"
-              onClick={() => TranslateClick("de-DE")}
-            >
-              de
-            </button>
-            <button
-              aria-label="in english"
-              onClick={() => TranslateClick("en-US")}
-            >
-              en
-            </button>
-          </StyledTranslateSwitch>
-
-          <StyledLogos>
-
-            <Mailto
-              email="mmueller@projectxconsulting.de"
-              subject="Hello Project X"
-              body="Let's connect"
-              className="mailto"
-            >
-              <MailLogo aria-label="send mail" size={25} className="colored" />
-            </Mailto>
-          </StyledLogos>
-
         </nav>
-
       </StyledNav>
     </>
   );
 }
 
 const StyledNav = styled.div`
-  width: 100vw;
-
- 
+  width: 50vw;
+  margin-left: 50vw;
 
   pointer-events: auto;
   overflow: hidden;
 
-  color: var(--signalblau);
-  background-color: var(--lichtblau);
+  color: var(--hullwhite);
+  background-color: var(--taubenblau);
 
   ul {
     margin: 0;
@@ -93,13 +104,12 @@ const StyledNav = styled.div`
 
     display: flex;
     flex-direction: raw;
-
     justify-content: center;
   }
 
   li {
-    margin: 0.5rem;
-    padding: 2rem;
+  
+    padding: 1rem;
     text-align: center;
   }
 
@@ -108,11 +118,11 @@ const StyledNav = styled.div`
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--signalblau);
+    color: var(--hullwhite);
   }
 
   .colored {
-    color: var(--signalblau);
+    color: var(--hullwhite);
   }
 
   .false {

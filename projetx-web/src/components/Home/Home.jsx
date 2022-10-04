@@ -8,7 +8,7 @@ import Nav from "../nav";
 import Problem from "./Problem/Problem";
 import Amplify from "./Amplify/Amplify";
 import Story from "./Story/Story";
-import Testimonial from "./Testimonial/Testimonial";
+import Trust from "./Trust/Trust";
 import Offer from "./Offer/Offer";
 import Response from "./Response/Response";
 
@@ -24,7 +24,7 @@ export default function Home() {
         <Problem />
         <Amplify />
         <Story />
-        <Testimonial />
+        <Trust />
         <Offer />
         <Response />
 

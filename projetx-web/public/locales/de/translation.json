@@ -1,7 +1,37 @@
 {
     "Nav":{
          "home": "Home",
-         "about": "Über"
-         
+         "about": "Über"   
+    },
+
+    "Header": {
+        "slogan": "Brennt dein Sales Team immer noch für dein Angebot?",
+        "company": "...mit project X consulting"
+    },
+
+    "Story": {
+        "headline": "Wie unsere Kunden partizipieren:"
+
+    },
+
+    "Trust": {
+        "trust": "Vertrauen",
+        "experiences": "20 Jahre Erfahrung im Vertrieb im Bereich B2C & B2B",
+        "channels": "Schwerpunktkanäle: Media Saturn Deutschland, Shop Kanäle der o2 & VF, Distribu0on uvm.",
+        "topics": "Themen: Hardware Selling, ISP Vermarktung, Promotion, Leasingaußendienst oder Mystery-Checks"
+    },
+
+    "Offer": {
+        "offer": "Angebot",
+        "sales": "Vertriebsmanagement",
+        "process": "Prozessoptimierung",
+        "growth": "Absatzsteigerung",
+        "employees": "Mitarbeiterentwicklung",
+        "services": "Professionalisierung ihrer Dienstleisungen",
+        "data": "Datenanalyse"
+    },
+
+    "Footer": {
+        "copyright": "Alle Rechte vorbehalten."
     }
 }

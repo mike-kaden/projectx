@@ -6,7 +6,8 @@ export default function Problem() {
     return (
       <>
         <StyledProblem>
-          <div>Problem</div>
+          <div>Herausforderungen für Sales- & Promotion-Agenturen</div>
+          <div>Herausforderungen für Industrie und Handel</div>
         </StyledProblem>
       </>
     );
