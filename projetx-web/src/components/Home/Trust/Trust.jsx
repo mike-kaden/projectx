@@ -64,5 +64,7 @@ const StyledExpertise = styled.div`
 `;
 
 const StyledTestimonialVideo = styled.div`
+  min-width: 360px;
+  width: auto;
   background-color: var(--lichtblau)
 `;
