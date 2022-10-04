@@ -2,8 +2,6 @@ import React from "react";
 
 import styled from "styled-components";
 
-import { useTranslation } from "react-i18next";
-
 import Header from "./Header/Header";
 import Nav from "../nav";
 
