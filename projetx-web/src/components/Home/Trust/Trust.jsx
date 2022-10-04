@@ -11,7 +11,7 @@ const videoSrc = {
   type: "video",
   sources: [
     {
-      src: "tOwjEOt1zYU",
+      src: "https://www.youtube.com/embed/tOwjEOt1zYU",
       provider: "youtube",
     },
   ],
