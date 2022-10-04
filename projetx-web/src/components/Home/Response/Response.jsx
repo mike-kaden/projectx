@@ -6,7 +6,7 @@ export default function Response() {
   return (
     <>
       <StyledResponse>
-        <div>Response</div>
+        <div>CTA</div>
       </StyledResponse>
     </>
   );

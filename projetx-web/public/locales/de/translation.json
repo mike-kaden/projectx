@@ -29,5 +29,9 @@
         "employees": "Mitarbeiterentwicklung",
         "services": "Professionalisierung ihrer Dienstleisungen",
         "data": "Datenanalyse"
+    },
+
+    "Footer": {
+        "copyright": "Alle Rechte vorbehalten."
     }
 }
