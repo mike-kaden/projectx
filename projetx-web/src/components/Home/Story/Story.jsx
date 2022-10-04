@@ -11,11 +11,14 @@ export default function Story() {
   return (
     <>
       <StyledStory>
+
         <StyledHeadline>{t("Story.headline")}</StyledHeadline>
+        test
         <StyledSlider>
 
+
         </StyledSlider>
-        
+
       </StyledStory>
     </>
   );
@@ -27,8 +30,7 @@ const StyledStory = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: right;
-
+  
   color: var(--komatsugrau);
   background-color: var(--telegrau);
 `;
@@ -44,6 +46,8 @@ const StyledHeadline = styled.div`
 `;
 
 const StyledSlider = styled.div`
-  width: 100vw;
-  
+
+  .carousel {
+    height: 50vh;
+  }
 `;
