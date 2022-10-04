@@ -3,5 +3,15 @@
          "home": "Home",
          "about": "Über"
          
+    },
+
+    "Offer": {
+        "offer": "Angebot",
+        "sales": "Vertriebsmanagement",
+        "process": "Prozessoptimierung",
+        "growth": "Absatzsteigerung",
+        "employees": "Mitarbeiterentwicklung",
+        "services": "Professionalisierung ihrer Dienstleisungen",
+        "data": "Datenanalyse"
     }
 }

@@ -2,5 +2,14 @@
     "Nav":{
          "home": "Home",
          "about": "About"   
+    },
+    "Offer": {
+        "offer": "Offer",
+        "sales": "Sales Management",
+        "process": "Process optimization",
+        "growth": "Increasing sales",
+        "employees": "Employee development",
+        "services": "Professionalization services",
+        "data": "Data Analytics"
     }
 }    

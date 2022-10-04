@@ -2,24 +2,37 @@ import React from "react";
 
 import styled from "styled-components";
 
+import { useTranslation } from "react-i18next";
+
 export default function Offer() {
+
+  const { t } = useTranslation();
+
   return (
     <>
       <StyledOffer>
-        <StyledOfferHeader>Offer</StyledOfferHeader>
+        <StyledOfferHeader>{t("Offer.offer")}</StyledOfferHeader>
+
         <StyledVertriebsmanagement>
-          Vetriebsmanagement
+          {t("Offer.sales")}
         </StyledVertriebsmanagement>
-        <StyledProzessoptimierung>Prozessoptimierung</StyledProzessoptimierung>
-        <StyledAbsatzsteigerung>Absatzsteigerung</StyledAbsatzsteigerung>
+
+        <StyledProzessoptimierung>
+          {t("Offer.process")}
+        </StyledProzessoptimierung>
+
+        <StyledAbsatzsteigerung>{t("Offer.growth")}</StyledAbsatzsteigerung>
+
         <StyledMitarbeiterentwicklung>
-          Mitarbeiterentwicklung
+          {t("Offer.employees")}
         </StyledMitarbeiterentwicklung>
+
         <StyledProfessionalisierung>
-          Professsionalisierung ihrer Dienstleistungen
+          {t("Offer.services")}
         </StyledProfessionalisierung>
+
         <StyledDatenanalyse>
-          Datenanalyse
+          {t("Offer.data")}
         </StyledDatenanalyse>
       </StyledOffer>
     </>
