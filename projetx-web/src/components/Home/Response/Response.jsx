@@ -21,5 +21,5 @@ const StyledResponse = styled.div`
   align-items: center;
 
   color: var(--komatsgrau);
-  background-color: var(--shellgelb);
+  background-color: var(--lichtblau);
 `;
