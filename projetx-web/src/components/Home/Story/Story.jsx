@@ -12,6 +12,9 @@ export default function Story() {
     <>
       <StyledStory>
         <StyledHeadline>{t("Story.headline")}</StyledHeadline>
+        <StyledSlider>
+
+        </StyledSlider>
         
       </StyledStory>
     </>
@@ -38,4 +41,9 @@ const StyledHeadline = styled.div`
   line-height: 1.4rem;
   font-size: 1.4rem;
   font-weight: 500;
+`;
+
+const StyledSlider = styled.div`
+  width: 100vw;
+  
 `;
