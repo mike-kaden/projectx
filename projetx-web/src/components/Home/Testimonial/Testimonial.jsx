@@ -6,7 +6,7 @@ export default function Testimonial() {
   return (
     <>
       <StyledTestimonial>
-        <div>Problem</div>
+        <div>Trust</div>
       </StyledTestimonial>
     </>
   );
@@ -20,6 +20,6 @@ const StyledTestimonial = styled.div`
   justify-content: center;
   align-items: center;
 
-  color: var(--komatsgrau);
+  color: var(--hullwhite);
   background-color: var(--schiefergrau);
 `;
